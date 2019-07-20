@@ -134,4 +134,22 @@
       <Name>PaginasXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xamarin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Item1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Item2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Item3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\play.png" />
+  </ItemGroup>
 </Project>

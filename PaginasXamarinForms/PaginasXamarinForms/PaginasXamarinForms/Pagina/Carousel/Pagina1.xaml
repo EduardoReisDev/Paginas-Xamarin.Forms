@@ -4,12 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="PaginasXamarinForms.Pagina.Carousel.Pagina1">
+             x:Class="PaginasXamarinForms.Pagina.Carousel.Pagina1"
+             BackgroundColor="LightSkyBlue">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Tipo de Página" TextColor="Blue"
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="xamarin.png"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

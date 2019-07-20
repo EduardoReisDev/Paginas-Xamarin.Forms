@@ -10,7 +10,7 @@ namespace PaginasXamarinForms
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Pagina.Carousel.IntroducaoApp();
         }
 
         protected override void OnStart()
