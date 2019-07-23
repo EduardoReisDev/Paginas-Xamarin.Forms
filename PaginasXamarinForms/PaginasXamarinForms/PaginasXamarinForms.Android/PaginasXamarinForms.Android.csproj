@@ -95,7 +95,6 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
-    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PaginasXamarinForms\PaginasXamarinForms.csproj">
@@ -104,22 +103,22 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\xamarin.png" />
+    <AndroidResource Include="Resources\drawable\xamarin.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Page.png" />
+    <AndroidResource Include="Resources\drawable\Page.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Item1.png" />
+    <AndroidResource Include="Resources\drawable\Item1.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Item2.png" />
+    <AndroidResource Include="Resources\drawable\Item2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Item3.png" />
+    <AndroidResource Include="Resources\drawable\Item3.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\play.png" />
+    <AndroidResource Include="Resources\drawable\play.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

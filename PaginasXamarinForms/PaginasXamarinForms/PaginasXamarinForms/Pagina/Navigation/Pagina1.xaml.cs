@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace PaginasXamarinForms.Pagina.Carousel
+namespace PaginasXamarinForms.Pagina.Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Pagina3 : ContentPage
+    public partial class Pagina1 : ContentPage
     {
-        public Pagina3()
+        public Pagina1()
         {
             InitializeComponent();
         }
 
-        private void MudarPagina (object sender, EventArgs args)
+        private void MudarParaPagina2 (object sender, EventArgs args)
         {
-            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.Black };
+            Navigation.PushAsync(new Pagina2());
         }
     }
 }

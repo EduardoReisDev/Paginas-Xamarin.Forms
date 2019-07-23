@@ -4,13 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="PaginasXamarinForms.Pagina.Carousel.Pagina3"
-             BackgroundColor="LightSkyBlue">
+             x:Class="PaginasXamarinForms.Pagina.Navigation.Pagina3">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand">
-            <Label Text="Tipo de Página" TextColor="Blue"
+        <StackLayout>
+            <Label Text="Eu sou um Modal"
+                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Image="play.png" Clicked="MudarPagina" BackgroundColor="Transparent"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
