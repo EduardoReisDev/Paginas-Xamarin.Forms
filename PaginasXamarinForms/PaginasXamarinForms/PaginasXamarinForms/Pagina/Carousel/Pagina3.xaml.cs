@@ -19,7 +19,8 @@ namespace PaginasXamarinForms.Pagina.Carousel
 
         private void MudarPagina (object sender, EventArgs args)
         {
-            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.Black };
+            //App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.Black };
+            App.Current.MainPage = new Tabbed.Abas();
         }
     }
 }
