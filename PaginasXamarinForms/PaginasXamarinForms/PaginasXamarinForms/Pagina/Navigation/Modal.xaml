@@ -4,10 +4,14 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="PaginasXamarinForms.Pagina.Navigation.Pagina3">
+             x:Class="PaginasXamarinForms.Pagina.Navigation.Modal">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Eu sou um Modal"
+        <StackLayout BackgroundColor="LightBlue">
+            <StackLayout BackgroundColor="LightBlue">
+                <Label Text="Eu sou o titulo"/>
+                <Button Text="X" Clicked="FecharModal"/>
+            </StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

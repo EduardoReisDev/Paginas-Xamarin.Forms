@@ -10,11 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace PaginasXamarinForms.Pagina.Navigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Pagina3 : ContentPage
+    public partial class Modal : ContentPage
     {
-        public Pagina3()
+        public Modal()
         {
             InitializeComponent();
+        }
+
+        private void FecharModal (object sender, EventArgs args)
+        {
+            Navigation.PopModalAsync();
         }
     }
 }

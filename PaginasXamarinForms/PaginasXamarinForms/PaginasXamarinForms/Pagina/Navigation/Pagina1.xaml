@@ -5,11 +5,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="PaginasXamarinForms.Pagina.Navigation.Pagina1"
-             Title=" Título Página 1">
+             Title=" Título Página 1"
+             >
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Pesquisa"/>
-        <ToolbarItem Text="Detalhes"/>
-        <ToolbarItem Text="Ordenar"/>
+        <ToolbarItem Text="Pesquisa" IconImageSource="xamarin.png"/>
+        <ToolbarItem Text="Detalhes" IconImageSource="Page.png"/>
+        <ToolbarItem Text="Ordenar" IconImageSource="play.png"/>
     </ContentPage.ToolbarItems>
 <ContentPage.Content>
         <StackLayout>
@@ -17,6 +18,7 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Ir para Página 2" Clicked="MudarParaPagina2"/>
+            <Button Text="Chamar Modal" Clicked="ChamarModal"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
